@@ -9,7 +9,7 @@ type props = {
 };
 
 const MobileNavbar = ({ shownav, closeNav }: props) => {
-  // ✅ Fix the typo here
+  // ✅ Fix the typo heree
   const navopen = shownav ? "translate-x-0" : "-translate-x-full";
 
   return (
